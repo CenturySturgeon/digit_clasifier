@@ -95,6 +95,8 @@ loss = mnist_loss(predictions, labels_test.float())
 loss.backward()
 weights.grad.shape,weights.grad.mean(),bias.grad
 
+
+# Use mini-batches
 dl = DataLoader(dset_test, batch_size = 256)
 #xb,yb = first(dl)
 #xb.shape,yb.shape
