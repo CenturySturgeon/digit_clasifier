@@ -151,4 +151,4 @@ def train_model(model, criterion, optimizer, dataloaders, num_epochs=10):
 
 train_model(pytorch_net, criterion, optimizer, dataloaders, nb_epoch)
 
-# torch.save(pytorch_net, 'models/pytorch-97.7acc.pt')
+#  toch.save(pytorch_net, 'models/pytorch-97.7acc.pt')
