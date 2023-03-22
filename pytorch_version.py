@@ -27,8 +27,7 @@ path.ls()
 image = Image.open((path/"training/1").ls()[0])
 image
 
-image.size
-image.mode
+image.size, image.mode
 
 
 transform = transforms.Compose(
